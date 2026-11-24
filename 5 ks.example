@@ -1,0 +1,22 @@
+# Copy this file to .env (same folder) and fill in real values. NEVER commit .env.
+NODE_ENV=development
+PORT=5000
+CLIENT_ORIGIN=http://localhost:5173
+COOKIE_SECURE=false
+
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=bandhan_app
+DB_PASSWORD=change-me
+DB_NAME=bandhan_marriage_consultant
+
+# At least 32 random characters. Generate: node -e "console.log(require('crypto').randomBytes(48).toString('hex'))"
+JWT_SECRET=
+
+# Used only by: npm run create-admin
+ADMIN_NAME=Site Administrator
+ADMIN_EMAIL=
+ADMIN_PASSWORD=
+
+# Optional. Default: storage\private inside the project (outside any public folder)
+# STORAGE_DIR=D:\BandhanMarriageConsultant\storage\private
